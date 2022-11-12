@@ -1,5 +1,8 @@
-# Somaticovep
-Pipeline somático para anotação de um VCF_ensembl 105.0 COM COLAB
+  :grinning: # Somaticovep_Colab  :grinning:
+ :grinning:
+Pipeline somático para anotação de variantes utilizando VCF e ensembl 105.0 no Google Colab
+
+Você deverá estar logado em uma conta gmail para criar seu documento no Google Colab. Para mais informações sobre o Colab, acessar o link abaixo 
 https://colab.research.google.com/
 
 
