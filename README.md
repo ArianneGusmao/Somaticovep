@@ -22,16 +22,18 @@ https://colab.research.google.com/
 Montar o drive com acesso aos arquivos que serão utilizados na anotação (o seu arquivo VCF). Para isso podemos utilizar o código abaixo.
 Mas não esqueça que você deve estar logado à uma conta gmail.
 
-```
-from google.colab import drive
+```python
+from google.colab import drive 
 drive.mount('/content/drive')
 ```
+
 
 
 #### 2.Instalação dos programas necessários
 Depois de conectar ao drive, podemos instalar os programas necessários. Não esquecer de fazer download da mesma versão do vep e referências.
 
-```
+```linux
+
 %%bash
 
 sudo apt install unzip curl git libmodule-build-perl libdbi-perl libdbd-mysql-perl build-essential zlib1g-dev
