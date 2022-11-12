@@ -93,3 +93,5 @@ tabela = pd.read_csv('INSERIR O CAMINHO DO SEU ARQUIVO', sep='\t', skiprows=38)
 df = pd.DataFrame(tabela)     DEFINIR O DATAFRAME (Estrutura de dados tabular bidimensional potencialmente heterogênea e de tamanho variável com eixos rotulados (linhas e colunas
 df
 ```
+Link para um exemplo do desenvolvimento desse tutorial
+https://colab.research.google.com/drive/19ZrpX0AzqWLjPgkToEejk3yu_CiltHd8?usp=sharing
