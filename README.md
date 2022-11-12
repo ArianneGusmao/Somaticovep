@@ -10,7 +10,8 @@ drive.mount('/content/drive')
 
 # Depois de conectar ao drive, podemos instalar os programas necessários. Não esquecer de fazer download da mesma versão do vep e referências.
 
-'''%%bash
+'''
+%%bash
 
 sudo apt install unzip curl git libmodule-build-perl libdbi-perl libdbd-mysql-perl build-essential zlib1g-dev
 wget -c https://github.com/Ensembl/ensembl-vep/archive/refs/tags/105.0.tar.gz
