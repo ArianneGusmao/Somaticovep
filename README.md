@@ -2,6 +2,8 @@
 
 Pipeline somático para anotação de variantes utilizando VCF e ensembl 105.0 no Google Colab
 
+Orientação do Prof. @renatopuga 
+
 A primeira etapa é criar um notebook novo no Google Colaboratory. Você pode fazer isso acessando o link https://colab.research.google.com/drive/1xmcV0BPIMqpNgjiVD86C92S3RVG_x3QG
 
 
@@ -9,6 +11,9 @@ Para mais informações sobre o Colab, acessar o link abaixo
 
 https://colab.research.google.com/
 
+- [Montar e conectar ao drive](#Montar-e-conectar-ao-drive)
+- [Instalação dos programas necessários](#Instalação-dos-programas-necessários)
+- [Testar o VEP](#Testar-o-VEP)
 
 
 #### 1. Montar e conectar ao drive (Google Colab)
