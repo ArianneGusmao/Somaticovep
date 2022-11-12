@@ -11,10 +11,12 @@ Para mais informações sobre o Colab, acessar o link abaixo
 
 https://colab.research.google.com/
 
-- [1.Montar e conectar ao drive](#Montar-e-conectar-ao-drive)
-- [Instalação dos programas necessários](#Instalação-dos-programas-necessários)
-- [Testar o VEP](#Testar-o-VEP)
-
+- [1. Montar e conectar ao drive](#Montar-e-conectar-ao-drive)
+- [2. Instalação dos programas necessários](#Instalação-dos-programas-necessários)
+- [3. Testar o VEP](#Testar-o-VEP)
+- [4. Anotação](#Anotação)
+- [5. Verificar quantas variantes foram anotadas](#Verificar-quantas-variantes-foram-anotadas)
+- [6. Importar os pacotes que serão utilizados](#Importar-os-pacotes-que-serão-utilizados)
 
 #### 1. Montar e conectar ao drive (Google Colab)
 Montar o drive com acesso aos arquivos que serão utilizados na anotação (o seu arquivo VCF). Para isso podemos utilizar o código abaixo.
