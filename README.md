@@ -57,8 +57,8 @@ Para baixar os arquivos de interesse que serão utilizados como referência, ins
 Para escolher as informações ou bloco de dados que você deseja utilizar em futuras análises, como classe de variantes, alelos, utilizar a linha com a função --pick 
 Já em fields nós conseguimos dizer quais informações eu quero trabalhar naquele momento, ou seja, quais informações esse arquivo que será gerado vai mostrar. 
 OBS: Posso fazer download de várias bases em pick, mas posso escolher quais delas eu quero utilizar naquele momento ou análise. É preferível fazer download das principais se você tiver a intenção de análisar outros conjuntos de informações posteriormente.
-Caso tenha dúvidas sobre quais são as principais, descritas com o termo "everything" acessar o link(https://www.ensembl.org/info/docs/tools/vep/script/vep_options.html#opt_sift).
-Segue o modelo de escrita do código:
+Caso tenha dúvidas sobre quais são as principais, descritas com o termo "everything" acessar o link (https://www.ensembl.org/info/docs/tools/vep/script/vep_options.html#opt_sift).
+
 ```
 %%bash
 
