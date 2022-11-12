@@ -32,7 +32,7 @@ drive.mount('/content/drive')
 #### 2.Instalação dos programas necessários
 Depois de conectar ao drive, podemos instalar os programas necessários. Não esquecer de fazer download da mesma versão do vep e referências.
 
-```linux
+```python
 
 %%bash
 
@@ -45,7 +45,7 @@ cd ensembl-vep-105.0
 
 #### 3. Testar o VEP
 Após instalados, podemos testar o vep
-```
+```python
 %%bash
 
 cd ensembl-vep-105.0
@@ -61,7 +61,7 @@ Já em fields nós conseguimos dizer quais informações eu quero trabalhar naqu
 OBS: Posso fazer download de várias bases em pick, mas posso escolher quais delas eu quero utilizar naquele momento ou análise. É preferível fazer download das principais se você tiver a intenção de análisar outros conjuntos de informações posteriormente.
 Caso tenha dúvidas sobre quais são as principais, descritas com o termo "everything" acessar o link (https://www.ensembl.org/info/docs/tools/vep/script/vep_options.html#opt_sift).
 
-```
+```python
 %%bash
 
 ./ensembl-vep-105.0/vep  \
@@ -78,7 +78,7 @@ Caso tenha dúvidas sobre quais são as principais, descritas com o termo "every
   #### 5. Verificar quantas variantes foram anotadas
   
   Após realizar a anotação e gerar seu arquivo .tsv, você pode verificar quantas variantes o arquivo anotou utilizado o grep
-  ```
+  ```python
   %%bash
   
 grep -vc "##" /INSERIR O CAMINHO DO ARQUIVO GERADO
@@ -86,7 +86,7 @@ grep -vc "##" /INSERIR O CAMINHO DO ARQUIVO GERADO
 #### 6.  Importar os pacotes que serão utilizados
 
 Nesse caso vamos utilizar o pandas e csv
-```
+```python
 import pandas as pd
 import csv
 tabela = pd.read_csv('INSERIR O CAMINHO DO SEU ARQUIVO', sep='\t', skiprows=38)
