@@ -4,7 +4,7 @@ Pipeline somático para anotação de variantes utilizando VCF e ensembl 105.0 n
 
 Orientação do Prof. @renatopuga 
 
-A primeira etapa é criar um notebook novo no Google Colaboratory. Você pode fazer isso acessando o link https://colab.research.google.com/drive/1xmcV0BPIMqpNgjiVD86C92S3RVG_x3QG
+Você deverá criar um notebook novo no Google Colaboratory. Você pode fazer isso acessando o link https://colab.research.google.com/drive/1xmcV0BPIMqpNgjiVD86C92S3RVG_x3QG
 
 
 Para mais informações sobre o Colab, acessar o link abaixo 
