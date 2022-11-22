@@ -1,4 +1,4 @@
- # Somaticovep_Colab  :grinning:
+ :computer: # Somaticovep_Colab :computer: 
 
 Pipeline somático para anotação de variantes utilizando VCF e ensembl 105.0 no Google Colab
 
@@ -95,3 +95,4 @@ df
 ```
 Link para um exemplo do desenvolvimento desse tutorial
 https://colab.research.google.com/drive/19ZrpX0AzqWLjPgkToEejk3yu_CiltHd8?usp=sharing
+:smile:
